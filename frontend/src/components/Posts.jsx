@@ -20,7 +20,7 @@ import React, { useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Post from './Post';
 import { useSelector } from 'react-redux';
-import { Heading4, Loader2 } from 'lucide-react';
+// import { Heading4, Loader2 } from 'lucide-react';
 import Stories from './Stories';
 
 const Posts = () => {

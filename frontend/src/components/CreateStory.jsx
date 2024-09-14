@@ -39,7 +39,7 @@ const CreateStory = ({ open, setOpen }) => {
 
         try {
             setLoading(true);
-            const res = await axios.post('http://localhost:8000/api/v1/story/createstory', formData, {
+            const res = await axios.post('https://insta-clone-fvrx.onrender.com/api/v1/story/createstory', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

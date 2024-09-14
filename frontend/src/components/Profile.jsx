@@ -29,7 +29,7 @@ const Profile = () => {
 
   const followHandler = async () => {
     try {
-      const res = await axios.post(`http://localhost:8000/api/v1/user/followorunfollow/${userId}`, {user:user._id}, { withCredentials: true })
+      const res = await axios.post(`https://insta-clone-fvrx.onrender.com/api/v1/user/followorunfollow/${userId}`, {user:user._id}, { withCredentials: true })
       if (res.data.success) {
         let updatedUserData;
         let updatedUserProfile;

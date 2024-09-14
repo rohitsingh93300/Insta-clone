@@ -1,7 +1,7 @@
 import { Heart, MessageCircle, Search } from 'lucide-react'
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { useNavigate } from 'react-router'
+// import { useNavigate } from 'react-router'
 
 const Explore = () => {
     const {posts} = useSelector(store=>store.post)
